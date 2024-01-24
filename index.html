@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Мой сайт с фотографиями</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+				background-color: #f4f4f4;
+			}
+
+			header {
+				text-align: center;
+				padding: 20px;
+				background-color: #333;
+				color: #fff;
+			}
+
+			section {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 100px;
+
+				padding: 40px;
+				max-width: 1200px;
+				margin: 0 auto;
+			}
+
+			.photo {
+				text-align: center;
+				width: 400px;
+				height: 650px;
+				/* padding: 10px 20px; */
+
+				/* margin-bottom: 100px;
+         */
+				margin-bottom: 20px;
+				/* border: 2px solid black; */
+				padding: 10px;
+				border-radius: 20px;
+				transition: transform 0.3s ease-in-out;
+				-webkit-box-shadow: 1px 11px 36px 14px rgba(34, 60, 80, 0.2);
+				-moz-box-shadow: 1px 11px 36px 14px rgba(34, 60, 80, 0.2);
+				box-shadow: 1px 11px 36px 14px rgba(34, 60, 80, 0.2);
+			}
+
+			.photo:hover {
+				transform: scale(1.05);
+			}
+
+			.photo img {
+				padding-top: 20px;
+
+				width: 100%;
+				height: auto;
+				border-radius: 8px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			}
+
+			.photo p {
+				margin-top: 10px;
+				color: #666;
+			}
+
+			@media screen and (max-width: 768px) {
+				.photo {
+					width: 100%;
+				}
+			}
+
+			@media screen and (max-width: 480px) {
+				.photo {
+					width: 100%;
+					margin: 0;
+				}
+				section {
+					flex-direction: column;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>Мой сайт с фотографиями</h1>
+		</header>
+
+		<section>
+			<div class="photo">
+				<img
+					src="https://avatars.dzeninfra.ru/get-zen_doc/3523766/pub_63d5f1f9f86b2d2a16b3c17d_63d5f2b3db90d61608ac12d3/scale_1200"
+					alt="Фото 1"
+				/>
+				<p>
+					Mercedes-Benz SL63 AMG – это элитное спортивное купе с внушительным
+					битурбированным V8 объемом около 5.5 литра, обеспечивающим мощность и
+					динамичность. Дизайн, в традициях AMG, сочетает элегантность с
+					агрессивностью. В салоне высокие технологии и роскошь, включая
+					передовую систему развлечений. Дополнительные спортивные акценты,
+					легкосплавные диски и улучшенные воздухозаборники делают SL63 AMG
+					неповторимым. Этот автомобиль предназначен для ценителей выдающейся
+					производительности и стиля, идеально сочетая в себе мощь и роскошь для
+					утонченного водителя.
+				</p>
+			</div>
+
+			<div class="photo">
+				<img
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnhUcvBRjl-TqYc7n86nku_lk0uepvCJzBzA&usqp=CAU"
+					alt="Фото 2"
+				/>
+				<p>
+					BMW M5 F90 – премиальное спортивное седан с мощным 4.4-литровым V8,
+					обеспечивающим выдающуюся производительность. Дизайн M5 сочетает
+					элегантность и агрессивность, с характерными элементами M Performance.
+					Салон оборудован передовыми технологиями, а динамичные характеристики
+					делают M5 идеальным для любителей спортивных вождений. Легкосплавные
+					диски, уникальные детали и спортивные акценты подчеркивают
+					превосходство этой модели в мире высокопроизводительных автомобилей.
+				</p>
+			</div>
+
+			<div class="photo">
+				<img
+					src="https://files.porsche.com/filestore/news/international-de/none/242551/headimage1/7da0df3d-c194-11e4-a19d-001a64c55f5c/Porsche-911-GT3-RS-the-race-car-for-the-circuit-racetrack-and-everyday-driving.jpg"
+					alt="Фото 3"
+				/>
+				<p>
+					Porsche 911 GT3 - выдающийся спорткар с мощным 4.0-литровым
+					двигателем, обеспечивающим динамичные характеристики. Дизайн
+					отличается элегантностью и аэродинамикой, с характерными чертами GT3.
+					Салон предлагает современные технологии и роскошные детали. Легкие
+					сплавы, спортивные обвесы и акценты подчеркивают выдающуюся
+					производительность этого Porsche, воплощая страсть к спортивным
+					вождениям и высокому стилю.
+				</p>
+			</div>
+		</section>
+	</body>
+</html>
